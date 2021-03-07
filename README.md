@@ -29,74 +29,24 @@ Below are the list which we have used to develop our application:
 - GIT as a repository for Distributed Version Control System.
 - POSTMAN as a REST Client.
 
-## Structure of Application
-|-src
-|-------app
-|-------_components
-|---------------alert.component.html
-|---------------alert.component.ts
-|---------------index.ts
-|-------_helpers
-                auth.guard.ts
-                error.interceptor.ts
-                fake-backend.ts
-                jwt.interceptor.ts
-                index.ts
-        _models
-                alert.ts
-                user.ts
-                index.ts
-        _services
-                account.service.ts
-                alert.service.ts
-                index.ts
-        account
-                account-routing.module.ts
-                account.module.ts
-                layout.component.html
-                layout.component.ts
-                login.component.html
-                login.component.ts
-                register.component.html
-                register.component.ts
-                index.ts
-        home
-                home.component.html
-                home.component.ts
-                index.ts
-        users
-                add-edit.component.html
-                add-edit.component.ts
-                layout.component.html
-                layout.component.ts
-                list.component.html
-                list.component.ts
-                users-routing.module.ts
-                users.module.ts
-                index.ts
-        app-routing.module.ts
-        app.component.html
-        app.component.ts
-        app.module.ts
-    environments
-    environment.prod.ts
-    environment.ts
-index.html
-main.ts
-polyfills.ts
-styles.less
-package.json
-tsconfig.base.json
-
 ## Step to see the running application with the following screenshot
 
-- ![Step 1](https://github.com/tanvipriya/compare_product/blob/main/screenshot/Step1.png?raw=true "After run npm install")
-- ![compare_two_product](https://github.com/tanvipriya/compare_product/blob/main/screenshot/compare_two_product.png?raw=true "Click on Compare two product")
-- ![compare_three_product](https://github.com/tanvipriya/compare_product/blob/main/screenshot/compare_three_product.png?raw=true "Click on Compare three product")
+- ![User Registration](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.41.png "Register the user Id here")
+- ![Password Validation](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.54.png "Password should have minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter and 1 number")
+- ![Login Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.41%20(2).png "Open the login Page")
+- ![Dasboard Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.42.22.png "After login Dashboard Open")
+- ![Open Manage User Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.42.46.png "Dashboard has Link Manage User")
 
-## Configuration discribe into frontend
+## Configuration discribe into frontend [Pages, Model, Services]
 ```
-- FRONTEND - https://github.com/tanvipriya/compare_product/tree/main/src
+- Account - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/account
+- Home - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/home
+- Users - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/users
+```
+
+```
+- Model - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/_models
+-Service - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/_services
 ```
 
 
