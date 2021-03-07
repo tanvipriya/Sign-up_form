@@ -30,13 +30,13 @@ Below are the list which we have used to develop our application:
 - POSTMAN as a REST Client.
 
 ## Structure of Application
-src
-    -app
-        _components
-                alert.component.html
-                alert.component.ts
-                index.ts
-        _helpers
+|-src
+|-------app
+|-------_components
+|---------------alert.component.html
+|---------------alert.component.ts
+|---------------index.ts
+|-------_helpers
                 auth.guard.ts
                 error.interceptor.ts
                 fake-backend.ts
