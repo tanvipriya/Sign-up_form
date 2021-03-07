@@ -17,34 +17,7 @@ export class CustomvalidationService {
       return valid ? null : { invalidPassword: true };
     };
   }
-validmatch(password: string, firstName: string) {
-  return (formGroup: FormGroup) => {
-    console.log('formGroup',formGroup.controls[firstName]);
-    return formGroup;
-  }
- 
-}
-//   MatchPassword(password: string, firstName: string) {
-//     return (formGroup: FormGroup) => {
-//       const passwordControl = formGroup.controls[password];
-//       const confirmfirstNameControl = formGroup.controls[firstName];
-// console.log('confirmfirstNameControl',confirmfirstNameControl);
 
-//       if (!passwordControl || !confirmfirstNameControl) {
-//         return null;
-//       }
-
-//       if (confirmfirstNameControl.errors && !confirmfirstNameControl.errors.passwordMismatch) {
-//         return null;
-//       }
-
-//       if (passwordControl.value !== confirmfirstNameControl.value) {
-//         confirmfirstNameControl.setErrors({ passwordMismatch: true });
-//       } else {
-//         confirmfirstNameControl.setErrors(null);
-//       }
-//     }
-//   }
 
   userNameValidator(userControl: AbstractControl) {
     return new Promise(resolve => {
@@ -64,7 +37,7 @@ validmatch(password: string, firstName: string) {
     *  Ideally it should be a service call to the server to search the value from a database.
     */
 
-    const UserList = ['ankit', 'admin', 'user', 'superuser'];
-    return (UserList.indexOf(userName) > -1);
+    const UserList = '/\S+@\S+\.\S+/';
+    return userName.match(UserList);
   }
 }

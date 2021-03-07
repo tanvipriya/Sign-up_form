@@ -34,8 +34,9 @@ Below are the list which we have used to develop our application:
 - ![User Registration](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.41.png "Register the user Id here")
 - ![Password Validation](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.54.png "Password should have minimum 8 characters, at least 1 uppercase letter, 1 lowercase letter and 1 number")
 - ![Login Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.44.41%20(2).png "Open the login Page")
-- ![Dasboard Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.42.22.png "After login Dashboard Open")
+- ![Dashboard Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.42.22.png "After login Dashboard Open")
 - ![Open Manage User Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.42.46.png "Dashboard has Link Manage User")
+- ![Edit Manage User Page](https://github.com/tanvipriya/Sign-up_form/blob/main/screenshot/Screenshot%202021-03-07%20at%2021.43.22.png "Click on Edit Button")
 
 ## Configuration discribe into frontend [Pages, Model, Services]
 ```
@@ -48,7 +49,14 @@ Below are the list which we have used to develop our application:
 - Model - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/_models
 -Service - https://github.com/tanvipriya/Sign-up_form/tree/main/src/app/_services
 ```
+## Step to see the running application in CYPRESS run Localhost and cypress parallel
 
+```
+## RUN LOCALHOST AND CYPRESS parallel
+npm run cypress
+ng serve
+
+```
 
 ## Thank you and welcome everyone to use our Application..!!!
 
